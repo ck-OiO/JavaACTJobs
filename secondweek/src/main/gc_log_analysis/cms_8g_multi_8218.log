@@ -1,0 +1,15 @@
+Java HotSpot(TM) 64-Bit Server VM (25.162-b12) for windows-amd64 JRE (1.8.0_162-b12), built on Dec 19 2017 20:00:03 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16452116k(7430424k free), swap 24316436k(9713772k free)
+CommandLine flags: -XX:InitialHeapSize=8589934592 -XX:MaxHeapSize=8589934592 -XX:MaxNewSize=697933824 -XX:MaxTenuringThreshold=6 -XX:NewSize=697933824 -XX:OldPLABSize=16 -XX:OldSize=1395867648 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:-UseLargePagesIndividualAllocation -XX:+UseParNewGC 
+2021-05-16T19:52:12.042+0800: 0.614: [GC (Allocation Failure) 2021-05-16T19:52:12.043+0800: 0.614: [ParNew: 545344K->68095K(613440K), 0.0498546 secs] 545344K->143864K(8320512K), 0.0501030 secs] [Times: user=0.14 sys=0.09, real=0.05 secs] 
+2021-05-16T19:52:12.178+0800: 0.750: [GC (Allocation Failure) 2021-05-16T19:52:12.178+0800: 0.750: [ParNew: 613439K->68094K(613440K), 0.0517167 secs] 689208K->271838K(8320512K), 0.0518244 secs] [Times: user=0.20 sys=0.17, real=0.05 secs] 
+2021-05-16T19:52:12.313+0800: 0.885: [GC (Allocation Failure) 2021-05-16T19:52:12.313+0800: 0.885: [ParNew: 613438K->68096K(613440K), 0.1141862 secs] 817182K->399377K(8320512K), 0.1142773 secs] [Times: user=0.88 sys=0.11, real=0.11 secs] 
+2021-05-16T19:52:12.516+0800: 1.088: [GC (Allocation Failure) 2021-05-16T19:52:12.516+0800: 1.088: [ParNew: 613440K->68096K(613440K), 0.1146762 secs] 944721K->520641K(8320512K), 0.1147503 secs] [Times: user=0.66 sys=0.09, real=0.12 secs] 
+Heap
+ par new generation   total 613440K, used 90485K [0x00000005c0000000, 0x00000005e9990000, 0x00000005e9990000)
+  eden space 545344K,   4% used [0x00000005c0000000, 0x00000005c15dd528, 0x00000005e1490000)
+  from space 68096K, 100% used [0x00000005e1490000, 0x00000005e5710000, 0x00000005e5710000)
+  to   space 68096K,   0% used [0x00000005e5710000, 0x00000005e5710000, 0x00000005e9990000)
+ concurrent mark-sweep generation total 7707072K, used 452545K [0x00000005e9990000, 0x00000007c0000000, 0x00000007c0000000)
+ Metaspace       used 2817K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 304K, capacity 386K, committed 512K, reserved 1048576K

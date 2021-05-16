@@ -1,0 +1,13 @@
+Java HotSpot(TM) 64-Bit Server VM (25.162-b12) for windows-amd64 JRE (1.8.0_162-b12), built on Dec 19 2017 20:00:03 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16452116k(7080216k free), swap 24316436k(9327012k free)
+CommandLine flags: -XX:InitialHeapSize=4294967296 -XX:MaxHeapSize=4294967296 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2021-05-16T18:11:28.120+0800: 0.992: [GC (Allocation Failure) [PSYoungGen: 1048576K->174591K(1223168K)] 1048576K->234999K(4019712K), 0.0583479 secs] [Times: user=0.08 sys=0.30, real=0.06 secs] 
+Heap
+ PSYoungGen      total 1223168K, used 670748K [0x000000076ab00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1048576K, 47% used [0x000000076ab00000,0x0000000788f874f0,0x00000007aab00000)
+  from space 174592K, 99% used [0x00000007aab00000,0x00000007b557fe80,0x00000007b5580000)
+  to   space 174592K, 0% used [0x00000007b5580000,0x00000007b5580000,0x00000007c0000000)
+ ParOldGen       total 2796544K, used 60407K [0x00000006c0000000, 0x000000076ab00000, 0x000000076ab00000)
+  object space 2796544K, 2% used [0x00000006c0000000,0x00000006c3afddc8,0x000000076ab00000)
+ Metaspace       used 2817K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 304K, capacity 386K, committed 512K, reserved 1048576K
