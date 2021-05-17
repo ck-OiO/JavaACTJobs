@@ -1,4 +1,4 @@
-package com.ck.javaatc.secondweek.util;
+package com.ck.javaatc.secondweek.sixthJob;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -19,7 +19,7 @@ public class OKHttpUtils {
     }
 
     public static void main(String[] args) throws IOException {
-        String url = "http://localhost:8081";
+        String url = "http://localhost:8801";
         String body = getAsString(url);
         System.out.println("url: " + url + "; response:" + body);
     }
