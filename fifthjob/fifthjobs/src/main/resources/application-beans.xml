@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--该bean默认懒加载为false, scope 为singleton, id为zhangsan, 根据bean的name或id自动注入-->
+    <!-- 从最复杂的setter和构造器配置, 简化的setter和构造器配置, p属性配置-->
+    <bean class="com.github.ck_oio.javaatcjobs.fifthjob.homework02.Employee" id="lisi21">
+        <constructor-arg name="name">
+            <value>lisi21</value>
+        </constructor-arg>
+        <constructor-arg name="id">
+            <value>21</value>
+        </constructor-arg>
+    </bean>
+    <bean class="com.github.ck_oio.javaatcjobs.fifthjob.homework02.Employee" id="lisi22">
+        <constructor-arg name="name" value="lisi22"/>
+        <constructor-arg name="id" value="22"/>
+    </bean>
+    <bean class="com.github.ck_oio.javaatcjobs.fifthjob.homework02.Employee" id="lisi23">
+        <property name="name">
+            <value>lisi23</value>
+        </property>
+        <property name="id">
+            <value>23</value>
+        </property>
+    </bean>
+    <bean class="com.github.ck_oio.javaatcjobs.fifthjob.homework02.Employee" id="lisi24">
+        <property name="name" value="lisi24"/>
+        <property name="id" value="24"/>
+    </bean>
+
+    <bean class="com.github.ck_oio.javaatcjobs.fifthjob.homework02.Employee" id="lisi25" p:name="lisi25" p:id="25"/>
+
+    <!-- 普通工厂方法, 静态工厂方法-->
+    <bean class="com.github.ck_oio.javaatcjobs.fifthjob.homework02.EmployeeFactory" id="employeeFactory"/>
+    <bean id="wangwu31" factory-bean="employeeFactory" factory-method="createEmployee"/>
+
+    <bean id="wangwu32" class="com.github.ck_oio.javaatcjobs.fifthjob.homework02.EmployeeFactoryByStatic"
+          factory-method="createEmployee"/>
+
+    <bean class="com.github.ck_oio.javaatcjobs.fifthjob.homework02.EmployeeFactoryBean" id="zhaoliu" p:employeeInfo="zhaoliu:41"/>
+
+    <bean class="com.github.ck_oio.javaatcjobs.fifthjob.homework02.Employee" id="secretary" p:name="secretary" p:id="61"/>
+
+</beans>

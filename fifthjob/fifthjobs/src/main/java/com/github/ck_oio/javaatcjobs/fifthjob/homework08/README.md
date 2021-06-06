@@ -1,0 +1,1 @@
+dep-school 实现了School/Klass/Student的自动jar包编写, 在HomeWork08Test 中进行了测试. Homework08Test 是测试方法

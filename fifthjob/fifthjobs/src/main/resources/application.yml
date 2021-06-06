@@ -1,0 +1,17 @@
+school:
+  enabled: true
+  klasses:
+    - students:
+      - id: 101
+        name: zhangsan
+      - id: 102
+        name: lisi
+    - students:
+      - id: 201
+        name: wangwu
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/school?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+    username: root
+    password: 111111
+    driver-class-name: com.mysql.cj.jdbc.Driver
