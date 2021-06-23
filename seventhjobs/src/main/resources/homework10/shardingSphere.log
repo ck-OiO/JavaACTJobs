@@ -1,0 +1,244 @@
+[INFO ] 16:20:27.031 [ShardingSphere-Command-9] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.031 [ShardingSphere-Command-9] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.033 [ShardingSphere-Command-9] ShardingSphere-SQL - Actual SQL: shopping_0 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.052 [ShardingSphere-Command-10] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.052 [ShardingSphere-Command-10] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.053 [ShardingSphere-Command-10] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.054 [ShardingSphere-Command-10] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.058 [ShardingSphere-Command-11] ShardingSphere-SQL - Logic SQL: SET character_set_results = NULL
+[INFO ] 16:20:27.058 [ShardingSphere-Command-11] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.059 [ShardingSphere-Command-11] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.066 [ShardingSphere-Command-11] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.080 [ShardingSphere-Command-13] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.080 [ShardingSphere-Command-13] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.081 [ShardingSphere-Command-13] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.084 [ShardingSphere-Command-15] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_isolation
+[INFO ] 16:20:27.084 [ShardingSphere-Command-15] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.085 [ShardingSphere-Command-15] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SELECT @@session.transaction_isolation
+[INFO ] 16:20:27.207 [ShardingSphere-Command-0] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.207 [ShardingSphere-Command-0] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.210 [ShardingSphere-Command-0] ShardingSphere-SQL - Actual SQL: shopping_0 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.217 [ShardingSphere-Command-1] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.218 [ShardingSphere-Command-1] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.219 [ShardingSphere-Command-1] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.219 [ShardingSphere-Command-1] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.226 [ShardingSphere-Command-3] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.227 [ShardingSphere-Command-3] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.227 [ShardingSphere-Command-3] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.239 [ShardingSphere-Command-4] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.240 [ShardingSphere-Command-4] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.241 [ShardingSphere-Command-4] ShardingSphere-SQL - Actual SQL: shopping_1 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.247 [ShardingSphere-Command-5] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.249 [ShardingSphere-Command-5] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.250 [ShardingSphere-Command-5] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.250 [ShardingSphere-Command-5] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.256 [ShardingSphere-Command-6] ShardingSphere-SQL - Logic SQL: SET character_set_results = NULL
+[INFO ] 16:20:27.258 [ShardingSphere-Command-6] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.259 [ShardingSphere-Command-6] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.259 [ShardingSphere-Command-6] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.266 [ShardingSphere-Command-8] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.266 [ShardingSphere-Command-8] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.267 [ShardingSphere-Command-8] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.276 [ShardingSphere-Command-9] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.277 [ShardingSphere-Command-9] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.281 [ShardingSphere-Command-9] ShardingSphere-SQL - Actual SQL: shopping_0 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.286 [ShardingSphere-Command-10] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.287 [ShardingSphere-Command-10] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.287 [ShardingSphere-Command-10] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.288 [ShardingSphere-Command-10] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.297 [ShardingSphere-Command-12] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.297 [ShardingSphere-Command-12] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.298 [ShardingSphere-Command-12] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.307 [ShardingSphere-Command-13] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.307 [ShardingSphere-Command-13] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.312 [ShardingSphere-Command-13] ShardingSphere-SQL - Actual SQL: shopping_1 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.318 [ShardingSphere-Command-14] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.319 [ShardingSphere-Command-14] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.320 [ShardingSphere-Command-14] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.320 [ShardingSphere-Command-14] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.328 [ShardingSphere-Command-15] ShardingSphere-SQL - Logic SQL: SET character_set_results = NULL
+[INFO ] 16:20:27.329 [ShardingSphere-Command-15] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.329 [ShardingSphere-Command-15] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.330 [ShardingSphere-Command-15] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.334 [ShardingSphere-Command-1] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.335 [ShardingSphere-Command-1] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.335 [ShardingSphere-Command-1] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.346 [ShardingSphere-Command-2] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.347 [ShardingSphere-Command-2] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.347 [ShardingSphere-Command-2] ShardingSphere-SQL - Actual SQL: shopping_0 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.353 [ShardingSphere-Command-3] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.353 [ShardingSphere-Command-3] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.354 [ShardingSphere-Command-3] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.355 [ShardingSphere-Command-3] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.364 [ShardingSphere-Command-5] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.365 [ShardingSphere-Command-5] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.365 [ShardingSphere-Command-5] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.374 [ShardingSphere-Command-6] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.375 [ShardingSphere-Command-6] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.375 [ShardingSphere-Command-6] ShardingSphere-SQL - Actual SQL: shopping_0 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.380 [ShardingSphere-Command-7] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.380 [ShardingSphere-Command-7] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.381 [ShardingSphere-Command-7] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.381 [ShardingSphere-Command-7] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.384 [ShardingSphere-Command-8] ShardingSphere-SQL - Logic SQL: SET character_set_results = NULL
+[INFO ] 16:20:27.390 [ShardingSphere-Command-8] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.390 [ShardingSphere-Command-8] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.391 [ShardingSphere-Command-8] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.395 [ShardingSphere-Command-10] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.395 [ShardingSphere-Command-10] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.396 [ShardingSphere-Command-10] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.405 [ShardingSphere-Command-11] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.405 [ShardingSphere-Command-11] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.406 [ShardingSphere-Command-11] ShardingSphere-SQL - Actual SQL: shopping_0 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.409 [ShardingSphere-Command-12] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.410 [ShardingSphere-Command-12] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.410 [ShardingSphere-Command-12] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.411 [ShardingSphere-Command-12] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.415 [ShardingSphere-Command-14] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.416 [ShardingSphere-Command-14] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.422 [ShardingSphere-Command-14] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.431 [ShardingSphere-Command-15] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.433 [ShardingSphere-Command-15] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.434 [ShardingSphere-Command-15] ShardingSphere-SQL - Actual SQL: shopping_0 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.441 [ShardingSphere-Command-0] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.441 [ShardingSphere-Command-0] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.442 [ShardingSphere-Command-0] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.442 [ShardingSphere-Command-0] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.445 [ShardingSphere-Command-1] ShardingSphere-SQL - Logic SQL: SET character_set_results = NULL
+[INFO ] 16:20:27.446 [ShardingSphere-Command-1] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.447 [ShardingSphere-Command-1] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.452 [ShardingSphere-Command-1] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET character_set_results = NULL
+[INFO ] 16:20:27.460 [ShardingSphere-Command-3] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.460 [ShardingSphere-Command-3] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.460 [ShardingSphere-Command-3] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.468 [ShardingSphere-Command-4] ShardingSphere-SQL - Logic SQL: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.469 [ShardingSphere-Command-4] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.470 [ShardingSphere-Command-4] ShardingSphere-SQL - Actual SQL: shopping_1 ::: /* mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+[INFO ] 16:20:27.479 [ShardingSphere-Command-5] ShardingSphere-SQL - Logic SQL: SET NAMES utf8mb4
+[INFO ] 16:20:27.481 [ShardingSphere-Command-5] ShardingSphere-SQL - SQLStatement: MySQLSetStatement()
+[INFO ] 16:20:27.482 [ShardingSphere-Command-5] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.482 [ShardingSphere-Command-5] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SET NAMES utf8mb4
+[INFO ] 16:20:27.488 [ShardingSphere-Command-7] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.488 [ShardingSphere-Command-7] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.489 [ShardingSphere-Command-7] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.893 [ShardingSphere-Command-9] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.893 [ShardingSphere-Command-9] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:27.895 [ShardingSphere-Command-9] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:27.899 [ShardingSphere-Command-10] ShardingSphere-SQL - Logic SQL: insert into t_order (
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        )
+        values (
+
+        1, null,
+        11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null
+        )
+[INFO ] 16:20:27.900 [ShardingSphere-Command-10] ShardingSphere-SQL - SQLStatement: MySQLInsertStatement(setAssignment=Optional.empty, onDuplicateKeyColumns=Optional.empty)
+[INFO ] 16:20:27.900 [ShardingSphere-Command-10] ShardingSphere-SQL - Actual SQL: shopping_1 ::: insert into t_order_1 (
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        , f_order_id)
+        values (1, null, 11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null, 614494174284591105)
+[INFO ] 16:20:27.998 [ShardingSphere-Command-11] ShardingSphere-SQL - Logic SQL: select f_order_id, f_user_id, f_create_at, f_total_value, f_address, f_status
+        from t_order
+[INFO ] 16:20:27.998 [ShardingSphere-Command-11] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:28.000 [ShardingSphere-Command-11] ShardingSphere-SQL - Actual SQL: shopping_0 ::: select f_order_id, f_user_id, f_create_at, f_total_value, f_address, f_status
+        from t_order_0
+[INFO ] 16:20:28.001 [ShardingSphere-Command-11] ShardingSphere-SQL - Actual SQL: shopping_0 ::: select f_order_id, f_user_id, f_create_at, f_total_value, f_address, f_status
+        from t_order_1
+[INFO ] 16:20:28.001 [ShardingSphere-Command-11] ShardingSphere-SQL - Actual SQL: shopping_1 ::: select f_order_id, f_user_id, f_create_at, f_total_value, f_address, f_status
+        from t_order_0
+[INFO ] 16:20:28.002 [ShardingSphere-Command-11] ShardingSphere-SQL - Actual SQL: shopping_1 ::: select f_order_id, f_user_id, f_create_at, f_total_value, f_address, f_status
+        from t_order_1
+[INFO ] 16:20:28.061 [ShardingSphere-Command-12] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:28.061 [ShardingSphere-Command-12] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:28.068 [ShardingSphere-Command-12] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:28.073 [ShardingSphere-Command-13] ShardingSphere-SQL - Logic SQL: insert into t_order (
+            f_order_id,
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        )
+        values (
+
+            1,
+
+        1, null,
+        11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null
+        )
+[INFO ] 16:20:28.074 [ShardingSphere-Command-13] ShardingSphere-SQL - SQLStatement: MySQLInsertStatement(setAssignment=Optional.empty, onDuplicateKeyColumns=Optional.empty)
+[INFO ] 16:20:28.075 [ShardingSphere-Command-13] ShardingSphere-SQL - Actual SQL: shopping_1 ::: insert into t_order_1 (
+            f_order_id,
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        )
+        values (1, 1, null, 11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null)
+[INFO ] 16:20:28.180 [ShardingSphere-Command-14] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:28.180 [ShardingSphere-Command-14] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:28.181 [ShardingSphere-Command-14] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:28.184 [ShardingSphere-Command-15] ShardingSphere-SQL - Logic SQL: insert into t_order (
+            f_order_id,
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        )
+        values (
+
+            2,
+
+        1, null,
+        11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null
+        )
+[INFO ] 16:20:28.184 [ShardingSphere-Command-15] ShardingSphere-SQL - SQLStatement: MySQLInsertStatement(setAssignment=Optional.empty, onDuplicateKeyColumns=Optional.empty)
+[INFO ] 16:20:28.185 [ShardingSphere-Command-15] ShardingSphere-SQL - Actual SQL: shopping_1 ::: insert into t_order_0 (
+            f_order_id,
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        )
+        values (2, 1, null, 11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null)
+[INFO ] 16:20:28.304 [ShardingSphere-Command-0] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:28.304 [ShardingSphere-Command-0] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:28.307 [ShardingSphere-Command-0] ShardingSphere-SQL - Actual SQL: shopping_1 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:28.310 [ShardingSphere-Command-1] ShardingSphere-SQL - Logic SQL: insert into t_order (
+            f_order_id,
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        )
+        values (
+
+            3,
+
+        2, null,
+        11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null
+        )
+[INFO ] 16:20:28.311 [ShardingSphere-Command-1] ShardingSphere-SQL - SQLStatement: MySQLInsertStatement(setAssignment=Optional.empty, onDuplicateKeyColumns=Optional.empty)
+[INFO ] 16:20:28.312 [ShardingSphere-Command-1] ShardingSphere-SQL - Actual SQL: shopping_0 ::: insert into t_order_1 (
+            f_order_id,
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        )
+        values (3, 2, null, 11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null)
+[INFO ] 16:20:28.391 [ShardingSphere-Command-2] ShardingSphere-SQL - Logic SQL: SELECT @@session.transaction_read_only
+[INFO ] 16:20:28.392 [ShardingSphere-Command-2] ShardingSphere-SQL - SQLStatement: MySQLSelectStatement(limit=Optional.empty, lock=Optional.empty)
+[INFO ] 16:20:28.393 [ShardingSphere-Command-2] ShardingSphere-SQL - Actual SQL: shopping_0 ::: SELECT @@session.transaction_read_only
+[INFO ] 16:20:28.396 [ShardingSphere-Command-3] ShardingSphere-SQL - Logic SQL: insert into t_order (
+            f_order_id,
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        )
+        values (
+
+            4,
+
+        2, null,
+        11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null
+        )
+[INFO ] 16:20:28.397 [ShardingSphere-Command-3] ShardingSphere-SQL - SQLStatement: MySQLInsertStatement(setAssignment=Optional.empty, onDuplicateKeyColumns=Optional.empty)
+[INFO ] 16:20:28.397 [ShardingSphere-Command-3] ShardingSphere-SQL - Actual SQL: shopping_0 ::: insert into t_order_0 (
+
+
+            f_order_id,
+
+
+        f_user_id, f_create_at,
+        f_total_value, f_address, f_status
+        )
+        values (4, 2, null, 11.11, 'zhonghuarenmingongheguo-beijingshi-chaoyangqu', null)

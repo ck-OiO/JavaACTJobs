@@ -1,0 +1,13 @@
+2021-06-23 15:21:46.882  INFO 15912 --- [           main] c.g.c.j.s.h.Homework09OrderServiceTest   : Started Homework09OrderServiceTest in 4.828 seconds (JVM running for 6.375)
+# insertWithoutAnno 使用了默认的数据源
+2021-06-23 15:21:47.398  INFO 15912 --- [           main] c.g.c.j.s.h.Homework09OrderServiceTest   : testInsertWithoutAnno
+# selectAll 使用了读数据源
+2021-06-23 15:21:47.587  INFO 15912 --- [           main] c.g.c.j.s.h.Homework09OrderServiceTest   : testSelectAll
+2021-06-23 15:21:47.599  INFO 15912 --- [           main] c.g.c.j.s.h.s.DataSourceSelectorAspect   : current dataSource is:READER
+2021-06-23 15:21:47.603  INFO 15912 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-06-23 15:21:47.643  INFO 15912 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-06-23 15:21:47.673  INFO 15912 --- [           main] c.g.c.j.s.h.s.DataSourceSelectorAspect   : remove dataSource type
+# insertWithWriteAnno 使用了写数据源
+2021-06-23 15:21:47.678  INFO 15912 --- [           main] c.g.c.j.s.h.Homework09OrderServiceTest   : testInsertWithWriteAnno
+2021-06-23 15:21:47.679  INFO 15912 --- [           main] c.g.c.j.s.h.s.DataSourceSelectorAspect   : current dataSource is:WRITER
+2021-06-23 15:21:47.801  INFO 15912 --- [           main] c.g.c.j.s.h.s.DataSourceSelectorAspect   : remove dataSource type
