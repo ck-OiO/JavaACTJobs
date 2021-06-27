@@ -1,0 +1,70 @@
+
+dataSources:
+  shopping_0: !!com.zaxxer.hikari.HikariDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://127.0.0.1:3316/shopping?serverTimezone=UTC&useSSL=false
+      username: root
+      password:
+      autoCommit: false
+  shopping_1: !!com.zaxxer.hikari.HikariDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    jdbcUrl: jdbc:mysql://127.0.0.1:3326/shopping?serverTimezone=UTC&useSSL=false
+    username: root
+    password:
+    autoCommit: false
+
+rules:
+- !SHARDING
+  tables:
+    t_order:
+# 逻辑表对应实体表的位置
+      actualDataNodes: shopping_${0..1}.t_order_${0..15}
+# 分表策略
+      tableStrategy:
+        standard:
+# 分表对应的条件列
+          shardingColumn: f_order_id
+# 分表策略
+          shardingAlgorithmName: t_order_inline
+      keyGenerateStrategy:
+        column: f_order_id
+        keyGeneratorName: snowflake
+#    t_order_item:
+#      actualDataNodes: ds_${0..1}.t_order_item_${0..1}
+#      tableStrategy:
+#        standard:
+#          shardingColumn: order_id
+#          shardingAlgorithmName: t_order_item_inline
+#      keyGenerateStrategy:
+#        column: order_item_id
+#        keyGeneratorName: snowflake
+#  bindingTables:
+#    - t_order,t_order_item
+# 默认分库策略
+  defaultDatabaseStrategy:
+    standard:
+# 分库的条件列
+      shardingColumn: f_user_id
+      shardingAlgorithmName: database_inline
+  defaultTableStrategy:
+    none:
+  
+  shardingAlgorithms:
+    database_inline:
+      type: INLINE
+      props:
+        algorithm-expression: shopping_${f_user_id % 2}
+    t_order_inline:
+      type: INLINE
+      props:
+        algorithm-expression: t_order_${f_order_id % 16}
+#    t_order_item_inline:
+#      type: INLINE
+#      props:
+#        algorithm-expression: t_order_item_${order_id % 2}
+#  
+  keyGenerators:
+    snowflake:
+      type: SNOWFLAKE
+      props:
+        worker-id: 123

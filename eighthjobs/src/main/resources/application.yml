@@ -1,0 +1,19 @@
+
+logging:
+  level:
+    com: info
+spring:
+  profiles:
+    active: homework06
+
+mybatis:
+  type-aliases-package: com.github.ck_oio.javaatcjobs.eighthjobs.model
+
+---
+
+spring:
+  profiles: homeowrk02
+  datasource:
+    url: jdbc:mysql://localhost:3307/shopping?useUnicode=ture&characterEncoding=UTF-8&serverTimezone=GMT%2B8&rewriteBatchedStatements=true
+    username: root
+    password: 111111
