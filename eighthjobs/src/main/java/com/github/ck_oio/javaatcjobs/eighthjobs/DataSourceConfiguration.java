@@ -1,6 +1,8 @@
 package com.github.ck_oio.javaatcjobs.eighthjobs;
 
 import org.apache.shardingsphere.driver.api.yaml.YamlShardingSphereDataSourceFactory;
+import org.apache.shardingsphere.transaction.core.TransactionType;
+import org.apache.shardingsphere.transaction.core.TransactionTypeHolder;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -26,7 +28,10 @@ public class DataSourceConfiguration {
     @Bean
     @Primary
     public DataSource dataSource() throws IOException, SQLException {
-        return YamlShardingSphereDataSourceFactory.createDataSource(resourceLoader.getResource("classpath:homework06/config-sharding.yaml").getFile());
+        final DataSource dataSource = YamlShardingSphereDataSourceFactory.createDataSource(resourceLoader.getResource("classpath:homework06/config-sharding.yaml").getFile());
+        // Apache ShardingSphere 默认的 XA 事务管理器为 Atomikos
+        TransactionTypeHolder.set(TransactionType.XA);
+        return dataSource;
     }
 
 
