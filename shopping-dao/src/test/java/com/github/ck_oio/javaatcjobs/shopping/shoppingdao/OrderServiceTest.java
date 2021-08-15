@@ -1,11 +1,9 @@
-package com.github.ck_oio.javaatcjobs.eighthjobs.homework;
+package com.github.ck_oio.javaatcjobs.shopping.shoppingdao;
 
-import com.github.ck_oio.javaatcjobs.eighthjobs.mappers.OrderMapper;
-import com.github.ck_oio.javaatcjobs.eighthjobs.model.Order;
+import com.github.ck_oio.javaatcjobs.shopping.shoppingdao.mappers.OrderMapper;
+import com.github.ck_oio.javaatcjobs.shopping.shoppingdao.model.Order;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -41,7 +39,6 @@ public class OrderServiceTest {
     public void insertWithId() {
         log.info("在每个数据库的每个表中插入一条数据:");
         final List<Order> orders = createOrders(true);
-
         for (Order order :
                 orders) {
             orderMapper.insert(order);

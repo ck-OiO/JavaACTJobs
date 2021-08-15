@@ -5,6 +5,7 @@ import io.kimmking.rpcfx.api.RpcfxResolver;
 import io.kimmking.rpcfx.api.RpcfxResponse;
 import io.kimmking.rpcfx.api.ServiceProviderDesc;
 import io.kimmking.rpcfx.demo.api.OrderService;
+import io.kimmking.rpcfx.demo.api.User;
 import io.kimmking.rpcfx.demo.api.UserService;
 import io.kimmking.rpcfx.server.RpcfxInvoker;
 import org.apache.curator.framework.CuratorFramework;
@@ -62,7 +63,7 @@ public class RpcfxServerApplication {
 	}
 
 	@GetMapping("/")
-	public String invoke(){
+	public String invoke(User user){
 		return "succ";
 	}
 
